@@ -1,0 +1,42 @@
+.kyl-header {
+  display: flex;
+  padding: 10px;
+  gap: 20px;
+  background: linear-gradient(to right, #cc202e, #cc202e);
+  color: #ffff00;
+}
+
+.kyl-header img {
+  height: 120px;
+}
+.kyl-header-r-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.kyl-body {
+  border: 2px solid #cc202e;
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px; */
+  /* padding: 10px; */
+}
+
+.kyl-body-sec {
+  display: flex;
+  margin: 0;
+  padding: 20px 10px;
+  border-bottom: 2px solid #eee;
+}
+.kyl-body-sec p {
+  width: 200px;
+}
+
+.kyl-body-sec ul {
+  list-style-type: decimal;
+  padding-left: 15px;
+}
+
+.kyl-body-sec span {
+  max-width: 68%;
+}

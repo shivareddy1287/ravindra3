@@ -1,0 +1,124 @@
+/* From Uiverse.io by adamgiebl */
+.delete-btn-img {
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  /* font-weight: bold; */
+  padding: 0.4em 1em;
+  border: 2px solid #ff0033;
+  border-radius: 2px;
+  position: relative;
+  box-shadow:
+    0 2px 10px rgba(0, 0, 0, 0.16),
+    0 3px 6px rgba(0, 0, 0, 0.1);
+  color: #ff0033;
+  text-decoration: none;
+  transition: 0.3s ease all;
+  z-index: 1;
+}
+
+.delete-btn-img:before {
+  transition: 0.5s all ease;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  right: 50%;
+  bottom: 0;
+  opacity: 0;
+  content: "";
+  background-color: #ff0033;
+  z-index: -1;
+}
+
+.delete-btn-img:hover,
+.delete-btn-img:focus {
+  color: white;
+}
+
+.delete-btn-img:hover:before,
+.delete-btn-img:focus:before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+}
+
+.delete-btn-img:active {
+  transform: scale(0.9);
+}
+
+.checkbox-cont {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-right: 10px;
+}
+.input-checkbox {
+  height: 20px;
+  width: 20px;
+  color: #ff0033;
+  background-color: #ff0033;
+}
+
+/* Style the checkbox container */
+/* Style the checkbox container */
+.input-checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #007bff; /* Blue border */
+  border-radius: 4px;
+  background-color: #fff;
+  position: relative;
+}
+
+/* Style the checked state (only a blue tick) */
+.input-checkbox:checked::before {
+  content: "✓"; /* Unicode checkmark */
+  font-size: 18px;
+  font-weight: bold;
+  color: #007bff; /* Blue tick */
+  position: absolute;
+  top: -2px;
+  left: 3px;
+}
+
+/* .input-checkbox:checked .selected-img-box {
+  background-color: #007bff !important;
+} */
+
+/* Style the label */
+.checkbox-cont label {
+  /* margin-left: 8px; */
+  /* font-size: 14px; */
+  color: #333;
+  cursor: pointer;
+}
+
+.delete-img-container {
+  background-color: aliceblue;
+  border: 1px solid #eee;
+  padding: 0 2px;
+}
+
+.back-btn {
+  height: 25px;
+  width: 25px;
+  background-color: #615f6082;
+  color: #fff !important;
+  padding: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  align-items: center;
+}
+
+.back-btn:hover {
+  background-color: #007bff;
+  cursor: pointer;
+}

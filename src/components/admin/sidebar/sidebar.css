@@ -1,0 +1,48 @@
+.sidebar-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 210px;
+  font-size: 15px;
+  /* background-color: rgb(213, 226, 226); */
+  /* background-image: linear-gradient(to right, #163e61, #194366); */
+  height: calc(100vh - 60px);
+}
+
+.sidebar-cont-items {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.side-bar-active-item {
+  background-color: rgb(201, 215, 228);
+}
+.sb-settings-cont {
+  position: relative;
+}
+
+.sb-settings-card {
+  position: absolute;
+  z-index: 9999;
+  background-color: #ece9e9d7;
+  border-radius: 10px;
+  min-width: 200px;
+  padding: 10px;
+  bottom: 30px;
+  left: 100px;
+  display: none;
+}
+
+.sb-settings-card p {
+  padding: 10px;
+  cursor: pointer;
+}
+.sb-settings-card p:hover {
+  background-color: #fff;
+}
+.sb-settings-cont:hover .sb-settings-card {
+  display: block;
+}

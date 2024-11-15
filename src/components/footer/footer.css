@@ -1,0 +1,58 @@
+.footer {
+  width: 100%;
+  background: linear-gradient(to right, #00093c, #2d0b00);
+  color: #fff;
+  font-size: 13px;
+  line-height: 20px;
+  padding: 2rem 0;
+}
+
+.footer__heading {
+  font-size: 2.6rem;
+  padding: 2rem;
+  /* color: #da3925;  */
+  color: #ffca2f; /* Replace this with your actual primary color if not using CSS variables */
+  font-weight: 500;
+}
+
+.footer__social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.footer_social-icons_icon {
+  background-color: #fff;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.footer_social-icons_icon a {
+  color: #ffca2f; /* Replace this with your actual secondary color */
+  font-size: 1.4rem;
+  margin-top: 0.2rem;
+}
+
+.footer_social-icons_icon:hover {
+  background-color: #da3925; /* Replace this with your actual primary color */
+  transform: translateY(-5px);
+}
+
+.footer_social-icons_icon:hover a {
+  color: #fff;
+}
+
+hr {
+  width: 90%;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  margin: 20px auto;
+  padding: 0;
+}

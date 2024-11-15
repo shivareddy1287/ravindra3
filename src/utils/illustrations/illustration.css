@@ -1,0 +1,22 @@
+.no-photos-illustration {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-photos-illustration img {
+  height: 200px;
+  width: 200px;
+}
+.no-photos-illustration span {
+  color: #da3925;
+  font-weight: bold;
+  font-size: 20px;
+}
+.illu-cont {
+  height: 100%;
+  width: 100%;
+}

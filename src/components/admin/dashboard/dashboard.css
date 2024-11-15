@@ -1,0 +1,123 @@
+.ad-cont {
+  display: flex;
+}
+.db-cont {
+  height: calc(100vh - 60px);
+  background-color: rgb(223, 226, 229);
+  width: 100%;
+}
+
+.db-det-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mui-date {
+  padding: 0;
+  font-size: 10px;
+}
+
+.db-det-cont img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.db-det-l-cont {
+  display: flex;
+
+  align-items: center;
+  gap: 10px;
+}
+.db-det-l-cont span {
+  color: #da3925;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.db-det-r-cont {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 8px;
+}
+
+.db-det-r-cont button {
+  /* height: 10px; */
+  /* padding: 10px; */
+}
+
+.pn-btn {
+  /* padding: 50px; */
+  /* padding: 50px; */
+  padding: 4px 2px;
+  margin-bottom: 1px;
+  cursor: pointer;
+  /* background-color: #da3925; */
+}
+
+.pn-btn:hover {
+  background-color: #007bff;
+  border: 2px solid #007bff;
+  color: #fff;
+}
+
+.pn-btn-icon {
+  font-size: 10px;
+  height: 10px;
+}
+
+.db-imgs-cont {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 10px;
+  /* background-color: #da3925; */
+  max-height: calc(100vh - 210px);
+  overflow-y: scroll;
+  overflow: auto;
+}
+.db-imgs-cont img {
+  border-radius: 10px;
+  height: 140px;
+  /* background-color: aliceblue; */
+  padding: 10px;
+}
+
+.custom-datepicker {
+  /* background-color: #da3925; */
+}
+
+/* .custom-datepicker {
+  width: 200px;
+  display: flex;
+}
+
+.custom-datepicker .MuiInputBase-root {
+  font-size: 14px;
+  padding: 0px;
+  height: 40px;
+} */
+
+.mui-date .MuiInputBase-root {
+  height: 42px; /* Adjust the height as needed */
+}
+
+.mui-date .MuiInputBase-input {
+  padding: 8px 10px 8px 12px; /* Adjust padding to make room for the icon */
+  width: 120px;
+}
+
+.mui-date .MuiInputAdornment-root {
+  position: absolute;
+  right: 14px; /* Adjust to move the icon to the correct position */
+  /* top: 50%; */
+  /* top: 20px; */
+  /* transform: translateY(-50%); */
+  bottom: 2px;
+}
+
+.mui-date .MuiSvgIcon-root {
+  font-size: 20px; /* Adjust the icon size if needed */
+}
